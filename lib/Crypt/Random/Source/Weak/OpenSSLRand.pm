@@ -12,6 +12,8 @@ extends qw(
 	Crypt::Random::Source::Base
 );
 
+our $VERSION = "0.01";
+
 sub available { 1 }
 
 sub rank { 200 } # not too shabby if you can get it installed
